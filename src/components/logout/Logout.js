@@ -14,7 +14,7 @@ const Logout = () => {
             localStorage.removeItem("accessToken");
             setAuthState({ username: "", id: 0, status: false });
 
-            navigate('/');
+            navigate('/COVID-Tracker-clientside-deploy/');
         }).catch((error) => {
             console.log("Can not logout", error);
         })

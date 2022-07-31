@@ -48,7 +48,7 @@ function Login() {
                     status: true,
                 });
 
-                navigate('/dashboard');
+                navigate('/COVID-Tracker-clientside-deploy/dashboard');
             })
             .catch((error) => {
                 actions.setSubmitting(false);
@@ -61,7 +61,7 @@ function Login() {
     useEffect(() => {
         // Already there is log in user
         if(authState.status) {
-            navigate('/');
+            navigate('/COVID-Tracker-clientside-deploy/');
         }
     }, [authState])
 

@@ -45,7 +45,7 @@ function Register() {
                 actions.setSubmitting(false);
                 actions.resetForm();
 
-                navigate('/login');
+                navigate('/COVID-Tracker-clientside-deploy/login');
             })
             .catch((error) => {
                 actions.setSubmitting(false);
@@ -56,7 +56,7 @@ function Register() {
     useEffect(() => {
         // Already there is log in user
         if(authState.status) {
-            navigate('/');
+            navigate('/COVID-Tracker-clientside-deploy/');
         }
     }, [authState])
 

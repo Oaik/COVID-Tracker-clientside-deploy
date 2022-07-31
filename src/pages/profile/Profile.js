@@ -68,7 +68,7 @@ function Profile() {
 
     useEffect(() => {
         if(!localStorage.getItem("accessToken")) {
-            navigate('/');
+            navigate('/COVID-Tracker-clientside-deploy/');
         }
 
         axios.post("https://covid19trackeromarnodo.cyclic.app/user/profile/", {}, {            
@@ -79,7 +79,7 @@ function Profile() {
         }).then((response) => {
             if(response.data.error) {
                 console.error("Tried to update another user page", response.data.error);
-                navigate('/');
+                navigate('/COVID-Tracker-clientside-deploy/');
             }
 
             setUserLogs(response.data.logs);

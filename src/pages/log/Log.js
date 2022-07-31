@@ -29,7 +29,7 @@ function Log() {
 
     useEffect(() => {
         if (!localStorage.getItem("accessToken")) {
-            navigate('/login');
+            navigate('/COVID-Tracker-clientside-deploy/login');
         }
         
         navigator.geolocation.getCurrentPosition((position) => {
