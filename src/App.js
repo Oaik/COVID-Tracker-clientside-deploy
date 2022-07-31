@@ -34,13 +34,13 @@ function App() {
           <Navbar />
 
             <Routes>
-              <Route path="/" exact element={<Home/>}/>
-              <Route path="/dashboard" exact element={<Dashboard/>}/>
-              <Route path="/log" exact element={<Log/>}/>
-              <Route path="/profile" exact element={<Profile/>}/>
-              <Route path="/login" exact element={<Login/>}/>
-              <Route path="/register" exact element={<Register/>}/>
-              <Route path="/logout" exact element={<Logout/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/" exact element={<Home/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/dashboard" exact element={<Dashboard/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/log" exact element={<Log/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/profile" exact element={<Profile/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/login" exact element={<Login/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/register" exact element={<Register/>}/>
+              <Route path="/COVID-Tracker-clientside-deploy/logout" exact element={<Logout/>}/>
             </Routes>
 
         </BrowserRouter>
