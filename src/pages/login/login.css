@@ -1,0 +1,15 @@
+.input-container {
+    background: url("https://images.unsplash.com/photo-1457364887197-9150188c107b") no-repeat bottom center fixed;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px #21252954;
+
+}
+
+.text-welcome {
+    color: #deebff;
+}
+
+/* .input-container .overlay {
+    min-height: 100vh;
+    background-color: rgba(0,0,0,.5);
+} */
