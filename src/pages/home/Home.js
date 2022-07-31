@@ -146,7 +146,7 @@ function Login() {
                     <div className="dashboard-intro-caption text-light">
                         <h2>Join us now and start writing your logs</h2>
                         
-                        <Link to="/register" className="text-light btn btn-primary mt-3 px-5 py-3">
+                        <Link to="/COVID-Tracker-clientside-deploy/register" className="text-light btn btn-primary mt-3 px-5 py-3">
                             Create an account
                         </Link>
                     </div>

@@ -178,7 +178,7 @@ function Profile() {
 
                         <br />
                         
-                        <Link to="/log" className="text-muted">
+                        <Link to="/COVID-Tracker-clientside-deploy/log" className="text-muted">
                            Create new log?
                         </Link>
                     </Col>

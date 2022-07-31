@@ -125,7 +125,7 @@ function Login() {
                                     <div className='text-center text-welcome'>
                                         <span>Dont have an account? </span>
 
-                                        <Link to="/register" className='text-light'>
+                                        <Link to="/COVID-Tracker-clientside-deploy/register" className='text-light'>
                                             Create
                                         </Link>
                                     </div>

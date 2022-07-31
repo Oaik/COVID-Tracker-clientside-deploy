@@ -27,12 +27,12 @@ const Navbar = () => {
                     {authState.status && 
                         <>
                         
-                            <Link to="/profile" className="nav-link">
+                            <Link to="/COVID-Tracker-clientside-deploy/profile" className="nav-link">
                                 Profile
                                 <i className="bi bi-person-lines-fill ps-1 mx-1 fs-5"></i>
                             </Link>
 
-                            <Link to="/log" className="nav-link">
+                            <Link to="/COVID-Tracker-clientside-deploy/log" className="nav-link">
                                 New Log
                                 <i className="bi bi-plus-square ps-1 mx-1 fs-5"></i>
                             </Link>

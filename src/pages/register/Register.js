@@ -111,7 +111,7 @@ function Register() {
                                     <div className='my-3'>
                                         <span>Already have an account? </span>
 
-                                        <Link to="/login" className=''>
+                                        <Link to="/COVID-Tracker-clientside-deploy/login" className=''>
                                             log in
                                         </Link>
                                     </div>
